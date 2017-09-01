@@ -1,0 +1,114 @@
+/** ==Responsive Styling== */
+body.mobile {-webkit-text-size-adjust: 100%;} /* Iphone browser fix*/
+body.mobile .main {min-height:0;}
+
+@media (max-width: 1280px) {
+
+	body {
+		font-size: .95em;
+		margin-top: 0; /* removed fixed header menu */
+	}
+
+	.magazine-three #content-masonry article.hentry {
+		width: 48%;
+	}
+
+	.noscroll { /* to be added to body on mobile */
+		overflow: hidden;
+	}
+
+}
+
+@media (max-width: 1024px) {
+
+	#container[class*="two-"] .main {
+		width: 100%;
+		margin: 0 0 1.5em;
+	}
+
+	#container[class*="two-"] #primary,
+	#container[class*="two-"] #secondary {
+		width: 100%;
+		margin: 0 0 1.5em;
+		float: none;
+	}
+
+	#container[class*="two-"] .widget-container,
+	#colophon .widget-container	{
+		width: 40%;
+		margin: 0 5% 1.5em;
+		float: left;
+	}
+
+	.magazine-three #content-masonry article.hentry {
+		width: 48%;
+	}
+
+	#branding {
+		margin-top: 1.5em;
+	}
+
+	#sidebar {
+		float: none;
+		display: block;
+		width: 100%;
+		margin: 0 auto 3em;
+	}
+
+	#sidebar-back {
+		display: none;
+	}
+
+	#access,
+	.sidey,
+	#footer {
+		display: none;
+	}
+
+	#nav-toggle {
+		display: block;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	body {
+		font-size: .90em;
+	}
+
+	.magazine-three #content-masonry article.hentry,
+	.magazine-two #content-masonry article.hentry {
+		width: 98%;
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	body {
+		font-size: .85em;
+	}
+
+	#container[class*="two-"] .widget-container,
+	#colophon .widget-container {
+		width: 100%;
+		margin: 0 0 1.5em;
+		clear: both;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	body {
+		font-size: .8em;
+	}
+
+	#mobile-menu > div {
+		max-width: 300px;
+	}
+
+}
+
+/* FIN */

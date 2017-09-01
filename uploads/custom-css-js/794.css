@@ -1,0 +1,60 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* restyle headers */
+h1{font-size:1.8em}
+h2{font-size:1.533em;}
+h3{font-size:1.267em}
+h4{font-size:1.0em}
+h5{font-size:1.0em}
+h6{font-size:1.0em}
+
+.entry-content h1, .entry-summary h1, .entry-content h2, .entry-summary h2, .entry-content h3, .entry-summary h3, .entry-content h4, .entry-summary h4, .entry-content h5, .entry-summary h5, .entry-content h6, .entry-summary h6 {
+    line-height: 2em;
+}
+
+
+/* make hr visable...*/
+hr {
+    border: 1px solid #e9e9e9;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    clear: both;
+    height: 0px;
+}
+
+.mce-content-body hr {
+    border: 1px solid #e9e9e9;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    clear: both;
+    height: 0px;
+}
+
+
+/* restyle comments */
+#comments .comment-body p {
+    line-height: 200%;    
+    padding: 2em;
+}
+
+#comments .comment-body p br {
+    content: "A" !important;   
+    display: block !important; 
+    margin-bottom: 1em !important;
+}
+
+/* edit list indentation */
+ul {
+    padding-left: 2em;
+}
+
+.mce-content-body ul {
+    padding-left: 2em;
+}
+
+ul#prime_nav {
+  padding-left: 0;
+}</style>
+<!-- end Simple Custom CSS and JS -->
